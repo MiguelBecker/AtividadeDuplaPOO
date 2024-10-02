@@ -30,7 +30,7 @@ public class RepositorioTransacao {
 	}
 	
 	public Transacao[] buscarPorEntidadeCredora(int identificadorEntidadeCredito) throws IOException {
-	    File arquivo = new File("Acao.txt");
+	    File arquivo = new File("Transacao.txt");
 	    BufferedReader reader = new BufferedReader(new FileReader(arquivo));
 	    List<Transacao> transacoes = new ArrayList<>();
 	    String linha;
